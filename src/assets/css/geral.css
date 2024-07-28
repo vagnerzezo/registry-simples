@@ -1,0 +1,98 @@
+#app {
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+  background-color: #525561;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --color1: #fff;
+  --color2: #3399F4;
+  --color3: #948979;
+  --color4: #DFD0B8;
+
+  --size1: 12px;
+  --size2: 14px;
+  --size3: 16px;
+  --size4: 18px;
+  --size5: 40px;
+}
+
+.wrapper {
+  display: block;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  align-items: center;
+}
+
+a {
+  color: var(--color1);
+  text-decoration: none;
+  font-size: var(--size3);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--color2);
+  text-decoration: none;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.hide {
+  display: none !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  padding: 5px;
+  border: 1px solid var(--cinza3);
+}
+
+label[for],
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+::-webkit-input-placeholder {
+  font-size: var(--size2);
+  color: var(--color1);
+  font-weight: 500;
+}
